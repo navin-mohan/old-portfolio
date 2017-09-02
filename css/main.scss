@@ -31,6 +31,8 @@
     text-transform: capitalize !important;
 }
 
-img.avatar{
-    margin-right: 0;
+@media (min-width:992px){
+    img.avatar{
+        margin-right: 0;
+    }
 }
