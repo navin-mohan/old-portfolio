@@ -1,0 +1,69 @@
+baseURL = "http://localhost:1313"
+languageCode = "en"
+title = "Navin Mohan"
+theme = "nuo"
+enableRobotsTXT = true
+PygmentsCodeFences = true
+canonifyurls = true
+
+# Disqus Username
+disqusShortname = ""
+
+# Google Analytics UA number
+googleAnalytics = ""
+
+# Copyright of your post
+copyright = "© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License. Please give source if you wish to quote or reproduce."
+
+# Initial site menu, you can extend menu with content.
+[[menu.main]]
+  name = "Home"
+  weight = 10
+  identifier = "home"
+  url = "/"
+
+
+
+
+# Add your own params here
+[params]
+  author = "Navin Mohan"
+  avatar = "/img/avatar.jpg"
+  seotitle = "Navin's blog"
+  subtitle = "Python Developer. Machine Learning Enthusiast"
+  description = "Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again."
+  paginate = 10
+
+  # Choose your social networks
+  email = "navinmohan.mec[at]gmail.com"
+  github = "nvnmo"
+  twitter = "nvnmo"
+  linkedin = "nvnmo"
+  # weibo = "weibo_username"
+  # wechat= "/img/qrcode.jpg" # Replace with your wechat qrcode image
+  # facebook = "facebook_username"
+  # google = "googlplus_id_number"
+  # instagram = "instagram_username"
+  # youtube = "youtube_username"
+  # vimeo = "vimeo_username"
+  # medium = "medium_username"
+  quora = "Navin-Mohan-1"
+  # pinterest = "pinterest_username"
+  # dribbble = "dribbble_username"
+  # behance = "behance_username"
+  # jsfiddle = "jsfiddle_username"
+  # codepen = "codepen_username"
+  # zhihu = "zhihu_username"
+  # douban = "douban_username"
+  # bilibili = "bilibili_id_number"
+
+
+
+  # Google Webmaster
+  # https://www.google.com/webmasters/
+  googleSiteVerification = "_moDmnnBNVLBN1rzNxyGUGdPHE20YgbmrtzLIbxaWFc"
+
+  # Bing Webmaster
+  # https://www.bing.com/toolbox/webmaster/
+  msValidate = "22596E34341DD1D17D6022C44647E587"
+
