@@ -1,0 +1,3 @@
+[submodule "themes/nuo"]
+	path = themes/nuo
+	url = git@github.com:nvnmo/hugo-nuo.git
