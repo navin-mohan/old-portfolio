@@ -1,4 +1,4 @@
-baseURL = "http://localhost:1313"
+baseURL = "https://navinmohan.ml"
 languageCode = "en"
 title = "Navin Mohan"
 theme = "nuo"
@@ -7,10 +7,10 @@ PygmentsCodeFences = true
 canonifyurls = true
 
 # Disqus Username
-disqusShortname = ""
+disqusShortname = "nvnmo-blog"
 
 # Google Analytics UA number
-googleAnalytics = ""
+googleAnalytics = "UA-77683228-2"
 
 # Copyright of your post
 copyright = "© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License. Please give source if you wish to quote or reproduce."
