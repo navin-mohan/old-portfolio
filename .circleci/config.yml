@@ -1,0 +1,14 @@
+version: 2
+jobs:
+    build:
+        docker: 
+            - image: nm73/docker-hugo:latest
+        steps:
+            - checkout
+            - run: run.sh
+workflow:
+    version: 2
+    build_and_deploy:
+        jobs:
+            - build
+
