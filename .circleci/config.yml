@@ -9,6 +9,7 @@ jobs:
     build:
         docker: 
             - image: nm73/docker-hugo:latest
+              entrypoint: docker-entrypoint.sh
         steps:
             - checkout
             - run: run.sh
