@@ -1,0 +1,21 @@
+version: 2
+
+general:
+    branches:
+        only:
+            - dev
+
+jobs:
+    build:
+        docker: 
+            - image: nm73/docker-hugo:latest
+        steps:
+            - checkout
+            - run: docker-entrypoint.sh
+            - run: run.sh
+workflow:
+    version: 2
+    build_and_deploy:
+        jobs:
+            - build
+
