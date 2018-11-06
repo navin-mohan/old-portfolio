@@ -1,4 +1,4 @@
-baseURL = "https://navinmohan.ml"
+baseURL = "https://nvnmo.github.io"
 languageCode = "en"
 title = "Navin Mohan"
 theme = "nuo"
@@ -13,7 +13,7 @@ disqusShortname = "nvnmo-blog"
 googleAnalytics = "UA-77683228-2"
 
 # Copyright of your post
-copyright = "© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License. Please give source if you wish to quote or reproduce."
+copyright = "© Navin Mohan"
 
 # Initial site menu, you can extend menu with content.
 [[menu.main]]
@@ -35,7 +35,7 @@ copyright = "© This post is licensed under a Creative Commons Attribution-NonCo
   paginate = 10
 
   # Choose your social networks
-  email = "navinmohan.mec[at]gmail.com"
+  email = "navinmohan81[at]gmail.com"
   github = "nvnmo"
   twitter = "nvnmo"
   linkedin = "nvnmo"
